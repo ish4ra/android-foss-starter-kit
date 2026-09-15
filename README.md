@@ -71,8 +71,9 @@ Move to a supported custom ROM after understanding unlock, compatibility, backup
 1. Install Obtainium or a trusted F-Droid client
 2. Replace one daily app — not twenty
 3. Add Ente Auth/Aegis + LocalSend
-4. Try a better browser that fits your threat model
-5. Only consider LineageOS after checking exact device support
+4. Pick Signal or Element/Matrix for open-source messaging
+5. Try a better browser that fits your threat model
+6. Only consider LineageOS after checking exact device support
 ```
 
 ---
@@ -86,6 +87,7 @@ Move to a supported custom ROM after understanding unlock, compatibility, backup
 | 🌐 Browser | **Helium / Cromite / IronFox** | Different engines, privacy goals and maturity trade-offs |
 | 🔐 2FA | **Ente Auth / Aegis** | Encrypted sync vs strong local-first Android focus |
 | 🔑 Passwords | **Bitwarden / KeePassDX** | Cross-device service vs local database |
+| 💬 Messaging | **Signal / Element (Matrix)** | Centralized secure messenger vs federated open protocol/client ecosystem |
 | 📁 Files | **Material Files** | Clean open-source file manager |
 | 📤 Nearby transfer | **LocalSend** | Fast cross-platform local sharing |
 | ⌨️ Keyboard | **HeliBoard / FlorisBoard** | FOSS keyboard choices without cloud dependency |
@@ -98,6 +100,17 @@ Move to a supported custom ROM after understanding unlock, compatibility, backup
 | 🔥 Firewall | **Rethink DNS + Firewall / NetGuard** | Per-app network control without root |
 
 ### 👉 [Browse the full app list →](APP-PICKS.md)
+
+---
+
+## 💬 Signal vs Element + Matrix
+
+| Pick | Best when | Model |
+|---|---|---|
+| **Signal** | You want the simplest polished private messenger | Centralized service, open-source client/server code |
+| **Element + Matrix** | You want federation, server choice, or self-hosting | Matrix is the protocol/network; Element is a client |
+
+Both belong here, but for different reasons. **Matrix is not an app**, and **Element is not the Matrix protocol itself**.
 
 ---
 
@@ -177,6 +190,7 @@ Week 1
 
 Week 2
 ├─ Authenticator
+├─ Messaging
 ├─ Browser
 ├─ File transfer
 └─ Gallery / keyboard
