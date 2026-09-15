@@ -42,11 +42,34 @@ Do not pick a browser only from benchmark results. Security update speed matters
 - **LocalSend** — send files across Android, Windows, Linux, macOS and iOS on the local network.
 - **Syncthing-compatible clients** — useful when you want continuous device-to-device folder sync rather than one-off transfer.
 
-## Email and communication
+## Messaging, calls and email
+
+### Signal
+
+**Signal** is the easiest recommendation when you want a polished private messenger with end-to-end encrypted chats, calls and groups. Its Android client and server code are published openly, but the Signal service itself is **centralized** rather than federated.
+
+Use Signal when you want a straightforward secure-messaging experience and do not need to choose or self-host your own messaging server.
+
+### Element + Matrix
+
+**Matrix** is the open federated messaging protocol/ecosystem; **Element** is one of its most prominent open-source clients. On Android, the modern Element client is built around the Matrix network.
+
+Use Matrix/Element when you value:
+
+- federation between independently operated homeservers;
+- the option to choose a provider or self-host;
+- rooms/communities and multi-device messaging;
+- an open protocol rather than one centralized service.
+
+Matrix and Element are related, but they are **not the same thing**: Matrix is the protocol/network, Element is a client.
+
+### Molly
+
+**Molly** is a hardened Signal-compatible Android client with additional privacy/security-focused options. It is a community project, so evaluate its release/support model and threat-model fit before replacing the official Signal client.
+
+### Email
 
 - **Thunderbird / K-9 Mail** — mature open-source email client family.
-- **Element** — Matrix client for federated messaging.
-- **Molly** — hardened Signal-compatible client; evaluate whether its release/support model fits your threat model before replacing the official Signal client.
 
 ## Media
 
@@ -97,6 +120,7 @@ Obtainium
 Droid-ify
 Ente Auth or Aegis
 Bitwarden or KeePassDX
+Signal or Element (Matrix), depending on your messaging model
 LocalSend
 AntennaPod
 Organic Maps
